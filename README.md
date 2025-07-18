@@ -1,6 +1,6 @@
 <!-- (This is a comment) INSTRUCTIONS: Go through this page and fill out any **bolded** entries with their correct values.-->
 
-# AND101 Project 5 - Choose Your Own API
+# AND101 Project 6 - CYOAPI Part 2: RecyclerView Edition
 
 Submitted by: **Brandon Tsai**
 
@@ -8,7 +8,7 @@ Time spent: **3** hours spent in total
 
 ## Summary
 
-**NASA APOD API Randomizer** is an android app that **gets a random image from NASA's APOD, displaying the image, its title, and date**.
+**NASA APOD Sampler** is an android app that **will show a random selection of 5 APOD's**.
 
 If I had to describe this project in three (3) emojis, they would be: **🔭🎲💻**
 
@@ -19,28 +19,24 @@ If I had to describe this project in three (3) emojis, they would be: **🔭🎲
 The following REQUIRED features are completed:
 
 - [x] Make an API call to an API of your choice using AsyncHTTPClient
-- [x] Display at least three (3) pieces of data for each API entry retrieved
-- [x] A working Button requests a new API entry and updates the data displayed
+- [x] Implement a RecyclerView to display a list of entries from the API
+- [x] Display at least three (3) pieces of data for each RecyclerView item
 
 The following STRETCH features are implemented:
 
-- [ ] Add a query to the API request
-  - The query I added is **FILL IN HERE**
-- [ ] Build a UI to allow users to add that query
+- [ ] Add a UI element for the user to interact with API further
+- [ ] Show a `Toast` or `Snackbar` when an item is clicked
+- [ ] Add item dividers with `DividerItemDecoration`
 
 The following EXTRA features are implemented:
 
 - [ ] List anything else that you added to improve the app!
 
-## API Choice
-
-My chosen API for this project is **NASA's APOD** - https://api.nasa.gov/.
-
 ## Video Demo
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-<img src='https://i.imgur.com/Gpw4EhE.gif' title='Video Demo' width='' alt='Video Demo' />
+<img src='https://i.imgur.com/fvscyqQ.gif' title='Video Demo' width='' alt='Video Demo' />
 
 GIF created with **https://ezgif.com/video-to-gif**
 
