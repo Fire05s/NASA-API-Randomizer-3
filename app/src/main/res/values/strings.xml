@@ -3,4 +3,5 @@
     <string name="randomize_button_title">Randomize</string>
     <string name="random_title_content">[TITLE]</string>
     <string name="random_date_content">[DATE]</string>
+    <string name="app_title">NASA APOD Sampler</string>
 </resources>
