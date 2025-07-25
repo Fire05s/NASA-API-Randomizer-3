@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
     private fun fetchAPODImage() {
         val client = AsyncHttpClient()
         val params = RequestParams()
-        params["api_key"] = "KXXkt3kcuiNbaFu4r2XzDEBERSTdckM31yCm57Cf" // TODO: REMOVE
+        params["api_key"] = "KEY"
         params["count"] = "5"
 
         client["https://api.nasa.gov/planetary/apod", params, object : JsonHttpResponseHandler() {
